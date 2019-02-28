@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+}
+
+.box{
+    flex-direction: row;
+    background-color: blue;
+    max-width: 900px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.row{
+    flex-direction: row;
+}
+
+
+.item{
+    margin: 20px;
+    min-height: 100px;
+    flex-grow: 1;
+    background-color: deeppink;
+}
+.s-1{
+    flex-direction: row;
+}
+
+.left{
+    height:600px;
+    flex-grow: 1;
+}
+
+.right{
+    flex-grow: 3;
+}
+
+.color-yellow{
+    background-color: yellow;
+}
+
+.atas{
+    height: 100px;
+}
+
+.bawah{
+    height: 300px;
+}

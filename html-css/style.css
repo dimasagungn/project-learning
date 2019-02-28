@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+}
+
+.item{
+    flex-grow: 1;
+    height: 250px;
+    background-color: yellow;
+    font-size: 40px;
+    margin: 20px;
+    padding: 20px;
+}
+
